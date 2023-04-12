@@ -14,8 +14,8 @@ class SwallowSpecies(str, Enum):
         European swallow.
     """
 
-    AFRICAN = "african"
-    EUROPEAN = "european"
+    AFRICAN = "african"  # non-migratory
+    EUROPEAN = "european"  # migratory
 
 
 class Swallow:
