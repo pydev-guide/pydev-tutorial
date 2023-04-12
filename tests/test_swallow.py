@@ -45,7 +45,7 @@ def test_swallow_migration(species, is_migratory):
 # Test for errors
 @pytest.mark.parametrize("species", ["european", "african"])
 def test_swallow_negative_cargo_weight(species):
-    """Test that the cargo weight cannot be negative."""
+    """Test that cargo weight cannot be negative."""
     swallow = Swallow(species=species)
     with pytest.raises(ValueError):
         swallow.cargo_weight = -1
