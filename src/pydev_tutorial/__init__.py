@@ -1,4 +1,4 @@
-"""Lovely Spam! Wonderful Spam!"""
+"""Lovely Spam! Wonderful Spam!."""
 
 from importlib.metadata import PackageNotFoundError, version
 
