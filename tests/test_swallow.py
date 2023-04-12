@@ -43,11 +43,12 @@ def test_swallow_migration(species, is_migratory):
 
 
 # Test for errors
-def test_swallow_negative_cargo_weight():
+@pytest.mark.parametrize("species", ["european", "african"])
+def test_swallow_negative_cargo_weight(species):
     """Test that the cargo weight cannot be negative."""
-    european_swallow = Swallow(species="european")
+    swallow = Swallow(species=species)
     with pytest.raises(ValueError):
-        european_swallow.cargo_weight = -1
+        swallow.cargo_weight = -1
 
 
 # Add fixtures to be able to reuse cases
