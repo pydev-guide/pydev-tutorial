@@ -7,3 +7,5 @@
 [![codecov](https://codecov.io/gh/valhalla/pydev-tutorial/branch/main/graph/badge.svg)](https://codecov.io/gh/valhalla/pydev-tutorial)
 
 Lovely Spam! Wonderful Spam!
+
+This repository is the example built step by step in the [pydev-tutorial](https://pydev-guide.github.io/tutorial/).
